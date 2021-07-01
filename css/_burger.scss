@@ -24,11 +24,11 @@
     display: block; 
     transition: 0.3s;
   }
-  
+
   .sidenav a:hover {
     color: #f1f1f1;
   }
-  
+
   .sidenav .closebtn {
     position: absolute;
     top: 5px;
@@ -36,8 +36,16 @@
     font-size: 36px;
     margin-left: 105px;
   }
-  
-  @media screen and (max-height: 450px) {
+
+   
+  @media   (max-height: 450px) {
     .sidenav {padding-top: 90px;}
     .sidenav a {font-size: 18px;}
-  }
+
+  } 
+
+
+
+
+
+  

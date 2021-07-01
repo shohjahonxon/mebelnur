@@ -14,7 +14,7 @@
 
         &__navbar{
             display: none;
-            
+
         }
         .menuToggle{
             position: relative;
@@ -58,20 +58,83 @@
     .container {
         max-width: 540px
     }
+    .main-bur{
+        font-size: 30px;
+        cursor: pointer;
+        display: block;
+
+      }
 }
 
 @media (max-width:414px) {
+    .bur{
+        font-size: 30px;
+        cursor: pointer;
+        display: block;
 
+      }
+      .banner{        
+        .banner-ctn{
+        max-width: 950px;
+        text-align: center;
+
+        &_text{
+            font-weight: 300;
+            color:#111;
+            font-size: 16px;
+            color: rgb(231, 4, 4);
+        }
+        &_title{
+            font-size: 40px;
+            color: rgb(255, 6, 6);
+      }
+
+
+   }
+}
     }
 
+    @media  (max-width: 450px) {
+        .burgeee{
+            display: block;
+          }
+          .banner{        
+            .banner-ctn{
+            max-width: 950px;
+            text-align: center;
+
+            &_text{
+                font-weight: 300;
+                color:#111;
+                font-size: 16px;
+                color: rgb(231, 4, 4);
+            }
+            &_title{
+                font-size: 40px;
+                color: rgb(255, 6, 6);
+          }
+
+
+       }
+    }
+      } 
     @media (max-width:375px) {
         .container {
             max-width: 350px
         }
+          .main-bur{
+            font-size: 30px;
+            cursor: pointer;
+            display: block;
+ 
+          }
+          .burgeee{
+            display: block;
+          }
     }
 
     @media (max-width:320px) {
-    
+
 .section-about{
     padding: 80px 0  0;
         .title {
@@ -88,7 +151,7 @@
                 .banner-ctn{
                 max-width: 950px;
                 text-align: center;
-        
+
                 &_text{
                     font-weight: 300;
                     color:#111;
@@ -99,9 +162,12 @@
                     font-size: 40px;
                     color: rgb(255, 6, 6);
               }
-        
-            
+
+
            }
         }
-  
-    }
+        .burgeee{
+            display: block;
+          }
+
+    } 
