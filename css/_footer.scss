@@ -1,0 +1,139 @@
+.footer-main {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0; 
+
+
+  
+}
+
+.logo {
+    margin-bottom: 24px;
+}
+.text-footer{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+   
+    color: #858A8F;  
+}
+.social-network {
+display: flex;
+justify-content: space-between;
+  align-items: center;
+margin-top: 44px;
+}
+
+.social-network li {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #F5F6FA;
+height: 50px;
+width: 50px;
+border-radius: 5px;
+transition: all 0.35s;
+cursor: pointer;
+}
+
+/* .social-network li:hover {
+transform: scale(1.2);
+background-color: #377DFF;
+}
+
+.social-network li:hover svg path {
+fill: #fff;
+} */
+
+.footer-list li:first-child {
+margin-bottom: 27px;
+color: #333333;
+font-weight: bold;
+}
+
+.footer-list li:not(:first-child) {
+margin: 18px 0;
+}
+.social-network-text{
+background:none;
+}
+
+.created {
+margin-bottom: 80px;
+}
+
+.link {
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #858A8F;
+
+}
+
+.link:hover {
+color: black;
+font-weight: bold;
+}
+
+/* Google */
+.social-network-Google:hover{
+transform: scale(1.2);
+background-color: #ee37ff8f;
+}
+.social-network-Google:hover svg path {
+fill: rgb(231, 33, 33);
+} 
+
+/* facebook */
+.social-network-facebook:hover
+{
+transform: scale(1.2);
+background-color: #386fe7;
+
+}
+.social-network-facebook:hover svg path {
+fill: rgb(248, 248, 248);
+   }
+
+   
+/* twitter */
+.social-network-twitter:hover
+{
+transform: scale(1.2);
+background-color: #f0f3f8;
+
+}
+.social-network-twitter:hover svg path {
+fill: rgb(60, 172, 224);
+   }
+
+   /* youtube */
+.social-network-youtube:hover
+{
+transform: scale(1.2);
+background-color: #ff0000e0;
+
+}
+.social-network-youtube:hover svg path {
+fill: rgb(255, 255, 255);
+   }
+
+
+
+   .blur-img{
+    position: relative;
+    width:  100%;
+    
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-image: url('../img/33.jpg');
+    background-size:cover;
+    filter: blur(8px);
+
+   }
+ 
